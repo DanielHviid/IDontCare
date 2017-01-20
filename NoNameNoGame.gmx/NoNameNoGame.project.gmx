@@ -20,18 +20,30 @@
     <sprites name="attack">
       <sprite>sprites\spr_slashAttack</sprite>
     </sprites>
+    <sprites name="plants">
+      <sprite>sprites\spr_plant1</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_test1</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_wall1</object>
-    <object>objects\obj_bullet1</object>
-    <object>objects\obj_slashAttack</object>
-    <object>objects\obj_player</object>
-    <objects name="controllers">
+    <objects name="Controllers">
       <object>objects\cont_main</object>
+    </objects>
+    <objects name="Characters">
+      <object>objects\obj_player</object>
+    </objects>
+    <objects name="Attacks">
+      <object>objects\obj_slashAttack</object>
+      <object>objects\obj_bullet1</object>
+    </objects>
+    <objects name="Walls">
+      <object>objects\obj_wall1</object>
+    </objects>
+    <objects name="Plants">
+      <object>objects\obj_plant1</object>
     </objects>
   </objects>
   <rooms name="rooms">
